@@ -1,7 +1,9 @@
+//online run link: https://onlinegdb.com/nnaF2F-Wz
+
 #include <iostream>
 using namespace std;
-
-int main() {
+int main() 
+{
     int N, price, total=0, budgetOrders=0;
     cout << "How many orders? ";
     cin >> N;
@@ -21,4 +23,5 @@ int main() {
     cout << "Total Budget Orders:  " << budgetOrders << "\n";
     return 0;
 }
+
 
