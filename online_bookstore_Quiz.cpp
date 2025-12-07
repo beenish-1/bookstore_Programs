@@ -2,14 +2,11 @@
 using namespace std;
 
 int main() {
-
-    int n, price, total=0, budgetOrders=0;
-    
+    int N, price, total=0, budgetOrders=0;
     cout << "How many orders? ";
-    cin >> n;
+    cin >> N;
 
-    for(int i = 0; i < n; i++) {
-
+    for(int i = 0; i < N; i++) {
         cout << "Enter price for each order: ";
         cin >> price;
 
@@ -18,11 +15,10 @@ int main() {
             cout << "Budget Order" << endl;
             budgetOrders++;  
         }
-
         total = total + price; 
     }
-    cout << "\nTotal Revenue = " << total << endl;
-    cout << "Total Budget Orders = " << budgetOrders << endl;
-
+    cout << "\nTotal Revenue: " << total << "\n";
+    cout << "Total Budget Orders:  " << budgetOrders << "\n";
     return 0;
 }
+
