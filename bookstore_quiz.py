@@ -1,3 +1,6 @@
+#online link for Run
+#link: https://onlinegdb.com/v4FdwSYCe
+
 N = int(input("How many orders?: "))
 totalRevenue = 0
 budgetCount = 0
@@ -10,6 +13,3 @@ for i in range(N):
     
 print("\nTotal Revenue:", totalRevenue)
 print("Budget Orders:", budgetCount)
-
-
-
