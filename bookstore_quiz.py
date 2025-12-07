@@ -1,9 +1,9 @@
-n = int(input("How many orders?: "))
+N = int(input("How many orders?: "))
 
 totalRevenue = 0
 budgetCount = 0
 
-for i in range(n):
+for i in range(N):
     price = int(input("Enter price for each order: "))
     if price < 900:
         print("Budget Order")
@@ -12,4 +12,5 @@ for i in range(n):
     
 print("\nTotal Revenue:", totalRevenue)
 print("Budget Orders:", budgetCount)
+
 
