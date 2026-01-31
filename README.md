@@ -8,6 +8,6 @@ I have solved it in **both Python and C++**, although the requirement was to use
 - `bookstore_quiz.py`  - Python solution  
 - `online_bookstore_Quiz.cpp`  - C++ solution
 
-
+Both files implement the same quiz logic.
 
 
